@@ -1,2 +1,2 @@
-About Portfolio
-This is a sample page for my portfolio.1
+#About Portfolio<br/>
+This is a sample page for my portfolio.
