@@ -1,89 +1,224 @@
-html{
+html {
     font-size: 16px;
 }
-body{
-    background-color: black!important;
-    color:white!important;
+
+body {
+    background-color: black !important;
+    color: white !important;
     font-family: "Fira Code", monospace;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
 }
 
+img:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+img{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#contactImgLeft, #contactImgRight
+{
+    pointer-events: none;
+
+}
 
 /* layout */
 
-.section{
-min-height: 200px;
-}
-
-
-/* Look and Feel Template */
-
-.divider-gradient{
-    background: rgb(0,0,0);
-    background: -moz-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 71%, rgba(0,0,0,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 71%, rgba(0,0,0,1) 100%);
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 71%, rgba(0,0,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType= 1);
-    height: 10%;
-}
-
-.textPrompt{
-    overflow: hidden;
-    position: relative;
-    height: 10vh;
-}
-
-.textBox{
-    width: 1000%;
-    font-size: 1.5rem;
+.section {
+    min-height: 200px;
 }
 
 
 /* font style */
 
-.mainHeader{
-    font-size:4rem;
-}
-.subHeader{
-    font-size:3rem;
-
+.mainHeader {
+    font-size: 4rem;
 }
 
-.font1{
+.subHeader {
+    font-size: 3rem;
+}
+
+.font1 {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.beach{
-    color:#ff6666;
+.fontSmall{
+    font-size: 0.9rem;
+}
+
+.color1_Text {
+    color: #ff6666;
+}
+
+.color1_BG {
+    background-color: #ff6666;
 }
 
 
+/* Others */
 
-.mainImage{
-    background-image:url("../img/bg1.jpg");
-    background-size: cover;
+.divider-gradient {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    height: 10%;
+}
+
+.textPrompt {
+    overflow: hidden;
+    position: relative;
+    height: 10vh;
+}
+
+.textBox {
+    width: 1000%;
+    font-size: 1.5rem;
+}
+
+.mainImage {
+    background-image: url("../img/bg1.jpg");
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
 }
 
-/* override bootstrap */
-.gradient{
+.gradient {
     /* background-color: black!important; */
-    background: rgb(0,0,0);
-    background: -moz-linear-gradient(180deg, rgba(0,0,0,0.506061799719888) 0%, rgba(0,0,0,0.506061799719888) 35%, rgba(2,0,36,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(0,0,0,0.506061799719888) 0%, rgba(0,0,0,0.506061799719888) 35%, rgba(2,0,36,1) 100%);
-    background: linear-gradient(180deg, rgba(0,0,0,0.506061799719888) 0%, rgba(0,0,0,0.506061799719888) 35%, rgba(2,0,36,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#020024",GradientType=1);
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.506061799719888) 0%, rgba(0, 0, 0, 0.506061799719888) 35%, rgba(2, 0, 36, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.506061799719888) 0%, rgba(0, 0, 0, 0.506061799719888) 35%, rgba(2, 0, 36, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.506061799719888) 0%, rgba(0, 0, 0, 0.506061799719888) 35%, rgba(2, 0, 36, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#020024", GradientType=1);
 
 }
 
 
+/* override bootstrap */
 
-.navbar-toggler{
-    color: white!important;
+h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.accordion {
+    --bs-accordion-border-color: none;
+    --bs-accordion-bg: none;
+    color: white !important;
+    --bs-accordion-active-color:none!important;
+}
+
+.accordion-body {
+    color: white;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.accordion-button {
+    border-bottom: 1px solid white !important;
+    background-color: black;
+    color: white !important;
+    padding-left: 0;
+    font-weight: 300;
+
+}
+
+.accordion-button:hover {
+    font-family: "DM Serif Display", serif;
+    font-size: 1.1rem;
+    color:#ff6666!important;
+}
+
+.accordion-button::after {
+    background-image: url("../img/dropDown.svg");
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../img/dropDown.svg");
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black !important;
+    border: 0 !important;
+    font-weight: 500;
+    font-family: "DM Serif Display", serif;
+    font-size: 1.1rem;
+}
+
+.accordion-collapse {
+    border-bottom: 1px solid white !important;
+}
+
+.navbar-toggler {
+    color: white !important;
+}
+
+.active {
+    /* color:#ff6666!important; */
+    font-weight: 300;
+
+}
+
+.buttonReset {
+    border: 0;
+    background: none;
+    color: white;
+    width: 15% !important;
+    display: block !important;
+}
+
+.buttonReset:hover {
+    color:#ff6666;
+}
+
+.carousel-item {
+    cursor: pointer;
+}
+
+p, h1,h2{
+  cursor: default;  
+}
+/* @media screen and (max-width:576px)
+{
+    .contactImg{
+        min-width: 1000px!important;
+    }
+}
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {  
+    
+#contactImgLeft{
+    width: 20vw!important;
+    z-index: -1!important;
+    position:absolute;
+    left: -15vw!important;
+    right: 10%!important;
+    top:-10vw;
+
+}
+
+#contactImgRight{
+    width: 20vw!important;
+    z-index: -1!important;
+    position:absolute;
+    right: -15vw!important;
+    left: none!important;
+    top:2vw;
+}
+
 }
