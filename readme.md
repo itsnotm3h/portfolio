@@ -26,7 +26,7 @@ I chose black as the primary color to ensure the focus remains on the colors of 
 
 
 ## Testing
-I have tested this site on different browsers on desktop and mobile. (Safari, Firefox and Chrome )
+I have tested this site on different browsers on desktop and mobile. (Safari, Firefox and Chrome)
 
 ## Credits
 
