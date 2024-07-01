@@ -1,4 +1,4 @@
-## About 
+# The White Pages
 Welcome to The White Pages, an innovative platform that bridges the worlds of traditional painting and modern coding. Our mission is to create a unique space where artists and coders can come together to explore the endless possibilities of digital art.
 
 
