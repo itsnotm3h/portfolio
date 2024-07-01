@@ -10,10 +10,10 @@ Welcome to The White Pages, an innovative platform that bridges the worlds of tr
 
 
 ## References
-Unsplash Images<br/>
+Images:<br/>
 [Photo 1](https://unsplash.com/photos/woman-wearing-white-headdress-while-holding-blue-bowl-painting-Kv1hYl9LlxU)<br/>
 [Photo 2](https://unsplash.com/photos/woman-in-blue-bikini-bottom-lying-on-blue-textile-jaWqPEPemvU)<br/>
-[Freepik](https://www.freepik.com/) - Ai generated photos
+[Freepik](https://www.freepik.com/)
 
 
 ## Disclaimer
