@@ -17,14 +17,14 @@ Contact Form - To let user submit an email.
 
 ### Features Left to Implement
 Add interactive elements, gameplay.
-<br/<br/><br/>
+<br/><br/><br/>
 
 ## Technologies used
 - HTML 5
 - CSS3
 - Bootstrap
 - Figma
-<br/<br/><br/>
+<br/><br/><br/>
 
 ## Testing
 I have tested this site on different browsers on desktop and mobile. (Safari, Firefox and Chrome)
@@ -45,7 +45,7 @@ Ai generate photos from [Freepik](https://www.freepik.com/)
 ### Acknowledgements
 I received inspiration for this project from [3Dear](https://www.3dear.se/) and [Anai](https://anaiwood.com/en).
 
-<br/><br/>
+<br/><br/><br/>
 
 ## Disclaimer
 This website is a mockup created for assignment purposes only. The content, including images and text, is intended for educational and illustrative use. I do not intend to destroy or harm any paintings or artworks. All artworks and images remain the property of their respective owners. No actual paintings were harmed or altered in the creation of this mockup.
