@@ -11,9 +11,9 @@ I chose black as the primary color to ensure the focus remains on the colors of 
 ## Features
 
 ### Existing Features
-Scroll Spy -  To help users navigate to different sections of the site.
-Accordian - To hide long information.
-Contact Form - To let user submit an email. 
+Scroll Spy -  To help users navigate to different sections of the site.<br/>
+Accordian - To hide long information.<br/>
+Contact Form - To let user submit an email. <br/>
 
 ### Features Left to Implement
 Add interactive elements, gameplay.
