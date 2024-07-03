@@ -28,7 +28,6 @@ Add interactive elements, gameplay.
 
 ## Testing
 I have tested this site on different browsers on desktop and mobile. (Safari, Firefox and Chrome)
-
 <br/><br/>
 
 ## Credits
