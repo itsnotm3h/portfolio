@@ -43,7 +43,6 @@ Ai generate photos from <br/>[Freepik](https://www.freepik.com/)
 
 ### Acknowledgements
 I received inspiration for this project from [3Dear](https://www.3dear.se/) and [Anai](https://anaiwood.com/en).
-
 <br/><br/>
 
 ## Disclaimer
