@@ -155,7 +155,7 @@
                           </div>
 
                         <div class="pb-3">
-                          <small>React</small>
+                          <small>Django</small>
                         <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2px">
                           <div class="progress-bar w-50 color1_BG"></div>
                         </div>
@@ -210,26 +210,11 @@
       </div>
     </div>
 
-
-
-    <!-- <div class="container-fluid section p-5" id="ourClients">
-      <div class="text-center "> Clients </div>
-      <div class="container my-5 px-3">
-      <div class="d-flex justify-content-around">
-            <div class="w-100 p-2"><img src="img/logo1.svg" class="img-fluid"></div>
-            <div class="w-100 p-2"><img src="img/logo2.svg" class="img-fluid"></div>
-            <div class="w-100 p-2"><img src="img/logo3.svg" class="img-fluid"></div>
-            <div class="w-100 p-2"><img src="img/logo4.svg" class="img-fluid"></div>
-          </div>
-      </div>
-    </div> -->
-
-
     <div class="container-fluid section p-5" id="contactUs">
-      <div class="container my-5 ">
+      <div class="container my-5 px-3">
           <div class="row justify-content-evenly position-relative">
             <div class="col-3 col-sm-2 d-none d-sm-block">
-              <img src="img/left.png" class="img-fluid" alt="left hand painting">
+              <img src="img/left.png" class="img-fluid" alt="left hand painting" id="contactImgLeftMB">
             </div>
             <div class="col-12 col-sm-8 col-md-7 p-md-5">
               <div class="d-flex flex-wrap">
@@ -242,20 +227,20 @@
               <div class="pt-5">
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control rounded-0" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <div class="mb-3 mx-auto">
-               <button> Submit</button>
+               <button class="submit"> Submit</button>
               </div>
             </div>
             </div>
 
             <div class="col-3 col-sm-2 mt-md-auto mt-sm-5 d-none d-sm-block">
-              <img src="img/right.png" class="img-fluid" alt="right hand painting">
+              <img src="img/right.png" class="img-fluid" alt="right hand painting" id="contactImgRightMB">
 
             </div>
           </div>
@@ -265,9 +250,21 @@
   </section>
 
 
-  <footer>
-    <div class="container-fluid border-top">
-    <div class="text-center text-white p-3"><small>©thewhitepages 2024</small></div>
+  <footer class="container-fluid">
+    <div class="container border-top py-3 p-0">
+      <div class="row justify-content-between">
+        <div class="col-12 col-sm-6">
+          <small class="textCenter">©TheWhitePages</small></div>
+        <div class="col-12 col-sm-6">
+          <div class="d-flex flex-wrap social-media y">
+            <div><i class="bi bi-instagram m-2"></i></div>
+            <div><i class="bi bi-linkedin m-2"></i></div>
+            <div><i class="bi bi-facebook m-2"></i></div>
+            <div><i class="bi bi-slack m-2"></i></div>
+          </div>
+        </div>
+    </div>
+
     </div>
   </footer>
 
