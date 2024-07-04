@@ -14,6 +14,7 @@ I chose black as the primary color to ensure the focus remains on the colors of 
 Scroll Spy -  To help users navigate to different sections of the site.<br/>
 Accordian - To hide long information.<br/>
 Contact Form - To let user submit an email. <br/>
+Modal - Pop up for painting description.
 
 ### Features Left to Implement
 Add interactive elements, gameplay.
