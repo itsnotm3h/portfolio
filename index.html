@@ -174,6 +174,27 @@
       </div>
     </div>
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-black font1" id="exampleModalLabel">Portrait of a Woman, 1638-39</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-black">
+        <p>The subject may represent Artemisia II of Caria (d.350 BC) wife of Mausolus, the governor of Caria in Asia Minor. After the death of her husband, she mixed his ashes in liquid which she drank, making herself a living tomb. The story was used as a symbol of a widow's devotion to her husband's memory.</p>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+
     <div class="container-fluid section p-5" id="ourProjects">
       <div class="text-center "> Projects </div>
       <div class="container my-5 px-3">
@@ -183,9 +204,9 @@
             <p>Giving portraits a brand new life.</p>
           </div>
           <div class="col-10 col-sm-10 col-md-4 order-1 order-md-2">
-            <div id="carouselExampleCaptions" class="carousel slide">
+            <div id="carouselExampleCaptions" class="carousel slide" >
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide1">
                   <img src="img/art3.1.jpg" class="img-fluid"  alt="project-1">
                 </div>
                 <div class="carousel-item">
@@ -211,7 +232,7 @@
     </div>
 
     <div class="container-fluid section p-5" id="contactUs">
-      <div class="container my-5 px-3">
+      <div class="container px-3">
           <div class="row justify-content-evenly position-relative">
             <div class="col-3 col-sm-2 d-none d-sm-block">
               <img src="img/left.png" class="img-fluid" alt="left hand painting" id="contactImgLeftMB">
