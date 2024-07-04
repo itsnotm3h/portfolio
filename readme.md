@@ -25,6 +25,7 @@ Add interactive elements, gameplay.
 - CSS3
 - Bootstrap
 - Figma
+- Jquery
 <br/><br/>
 
 ## Testing
