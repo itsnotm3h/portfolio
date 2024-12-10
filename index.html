@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The White Pages</title>
+  <title></title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fira+Code:wght@300..700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=gallery_thumbnail,view_carousel" />
   <link rel="stylesheet" href="css/myStyle.css">
 </head>
 
@@ -20,14 +22,14 @@
   <header>
     <nav class="navbar navbar-expand-lg fixed-top w-100 navbar-dark bg-black" id="navScrollSpy">
       <div class="container">
-        <a class="navbar-brand font1" href="#">The White Pages</a>
+        <a class="navbar-brand font1" href="#">Itsnotmeh</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#aboutUs">About</a>
+            <a class="nav-link active" aria-current="page" href="#aboutUs">Skills</a>
             <a class="nav-link" href="#ourProjects">Projects</a>
             <!-- <a class="nav-link" href="#ourClients">Clients</a> -->
             <a class="nav-link" href="#contactUs">Contact</a>
@@ -35,229 +37,427 @@
         </div>
       </div>
     </nav>
-  <div class="container-fluid p-0">
-    <div class="mainImage d-flex align-items-stretch">
-      <div class="m-auto d-flex flex-wrap">
-        <div class="w-100 text-white text-center fs-6">Where art meets</div>
-        <div class="text-center w-100 font1 mainHeader">Coding</div>
-      </div>
-      <div class="position-absolute z-1 divider-gradient bottom-0 w-100 text-white">
-        <div></div>
-      </div>
+    <div class="container-fluid p-0">
+      <div class="mainImage d-flex align-items-stretch">
+        <div class="m-auto d-flex flex-wrap">
+          <div class="w-100 text-white text-center fs-6">Where design meets</div>
+          <div class="text-center w-100 font1 mainHeader">Coding</div>
+        </div>
+        <div class="position-absolute z-1 divider-gradient bottom-0 w-100 text-white">
+          <div></div>
+        </div>
 
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<main data-bs-spy="scroll" data-bs-target="#navScrollSpy">
-  <section id="aboutUs">
-    <div class="container-fluid section p-5">
-      <div class="my-5">
-        <h2 class="font2">About</h2>
-      </div>
-      <div class="container">
-        <div class="row justify-content-evenly">
-          <div class="col-sm-12 col-md-6 col-lg-5 px-lg-5 px-md-5 px-sm-0">
-            <div class="d-flex flex-wrap">
-              <div class="font1 subHeader me-sm-auto ms-lg-auto me-lg-0">Art + Interaction</div>
-              <div class="align-self-end ms-auto d-none d-sm-none d-md-block">
-                <img src="img/art1.jpg" class="img-fluid align-self-end mainArt" alt="Painting of a Girl portrait">
+  <main data-bs-spy="scroll" data-bs-target="#navScrollSpy">
+    <section id="aboutUs">
+      <div class="container-fluid section p-5">
+        <div class="my-5">
+          <h2 class="font2">Skills</h2>
+        </div>
+        <div class="container">
+          <div class="row justify-content-evenly">
+            <div class="col-sm-12 col-md-6 col-lg-5 px-lg-5 px-md-5 px-sm-0">
+              <div class="d-flex flex-wrap">
+                <div class="font1 subHeader me-sm-auto ms-lg-auto me-lg-0">Design + Code</div>
+                <div class="align-self-end ms-auto d-none d-sm-none d-md-block">
+                  <img src="img/art1.jpg" class="img-fluid align-self-end mainArt" alt="Painting of a Girl portrait">
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6 mt-mb-5 px-lg-5   px-md-5 px-sm-0 ">
-            <div class="mt-5">
-              <p> With expertise in both full-stack development and multimedia design, we create unique digital art
-                solutions. Our approach is rooted in innovation, creativity, and a commitment to excellence.
-              </p>
-              <div class="py-4">
-                <div class="accordion accordion-flush " id="accordionPanelsStayOpenExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseOne">
-                        Design
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse py-2">
-                      <div class="accordion-body px-3 m-auto">
+            <div class="col-sm-12 col-md-6 col-lg-6 mt-mb-5 px-lg-5   px-md-5 px-sm-0 ">
+              <div class="mt-5">
+                <p> With full-stack development and multimedia design, I combine creativity to create
+                  engaging and beautiful products for any audience.
+                </p>
+                <div class="py-4">
+                  <div class="accordion accordion-flush " id="accordionPanelsStayOpenExample">
 
-                        <div class="pb-3">
-                          <small>3D</small>
-                          
-                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseTwo">
+                          Coding Languages
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body  px-3 m-auto">
+                          <div class="pb-3">
+                            <small>HTML/CSS </small>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-75 color1_BG"></div>
+                            </div>
+                          </div>
+                          <div class="pb-3">
+                            <small>Javascript</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-75 color1_BG"></div>
+                            </div>
+                          </div>
+                          <div class="pb-3">
+                            <small>Python</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>Java</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-25 color1_BG"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseThree">
+                          Frameworks
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body px-3 m-auto">
+
+                          <div class="pb-3">
+                            <small>Bootstrap</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
                               <div class="progress-bar w-75 color1_BG"></div>
                             </div>
                           </div>
 
-                        <div class="pb-3">
-                          <small>Storyboarding</small>
-                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2px">
-                          <div class="progress-bar w-50 color1_BG"></div>
+                          <div class="pb-3">
+                            <small>React.js</small>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>Express.js</small>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+
                         </div>
-                      </div>
-
-                      <div class="pb-3">
-                      <small>UX / UI Design</small>
-                      
-                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2px">
-                          <div class="progress-bar w-75 color1_BG"></div>
-                        </div>
-                      </div>
-
-
                       </div>
                     </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo">
-                        Front-End
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                      <div class="accordion-body  px-3 m-auto">
-                        <div class="pb-3">
-                          <small>HTML/CSS </small>
-                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2px">
-                          <div class="progress-bar w-75 color1_BG"></div>
-                        </div>
-                      </div>
-                      <div class="pb-3">
-                      <small>Javascript</small>
-                      
-                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2px">
-                          <div class="progress-bar w-75 color1_BG"></div>
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseThree">
-                        Back-End
-                      </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                      <div class="accordion-body px-3 m-auto">
 
-                        <div class="pb-3">
-                          <small>Nodejs</small>
-                          
-                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseFour">
+                          Libraries / Database
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse py-2">
+                        <div class="accordion-body px-3 m-auto">
+
+                          <div class="pb-3">
+                            <small>jQuery</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
                               <div class="progress-bar w-75 color1_BG"></div>
                             </div>
                           </div>
 
-                        <div class="pb-3">
-                          <small>Django</small>
-                        <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 2px">
-                          <div class="progress-bar w-50 color1_BG"></div>
+                          <div class="pb-3">
+                            <small>Axios</small>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>MySQL</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-75 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>MongoDB</small>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>RESTful.api</small>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+
+
+
                         </div>
                       </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseOne">
+                          Design / Analytics
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse py-2">
+                        <div class="accordion-body px-3 m-auto">
+
+                          <div class="pb-3">
+                            <small>Google analytics</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>Lottie (After Effects)</small>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>UX/UI (Figma)</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
 
 
+                          <div class="pb-3">
+                            <small>Visual Design (Adobe Suite)</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-75 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>3D (Blender)</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-50 color1_BG"></div>
+                            </div>
+                          </div>
+
+
+
+                          <div class="pb-3">
+                            <small>Photography / Videography</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-75 color1_BG"></div>
+                            </div>
+                          </div>
+
+                        </div>
                       </div>
                     </div>
-                  </div>
 
+
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                          aria-controls="panelsStayOpen-collapseFive">
+                          Interest / Learning</button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse py-2">
+                        <div class="accordion-body px-3 m-auto">
+
+                          <div class="pb-3">
+                            <small>Three.js</small>
+
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-0 color1_BG"></div>
+                            </div>
+                          </div>
+
+                          <div class="pb-3">
+                            <small>Tailwind CSS</small>
+                            <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="25"
+                              aria-valuemin="0" aria-valuemax="100" style="height: 2px">
+                              <div class="progress-bar w-0 color1_BG"></div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
-    
-    
-<section id="ourProjects">
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div>
-        <h1 class="modal-title fs-5 text-black font1 projectTitle" id="exampleModalLabel">Portrait of a Woman, 1638-39 </h1><small class="text-black projectArtist">by Guido Reni</small></div>
-        <button type="button" class="btn-close mb-auto" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body text-black">
-        <p class="fontSmall projectText">The subject may represent Artemisia II of Caria (d.350 BC) wife of Mausolus, the governor of Caria in Asia Minor. After the death of her husband, she mixed his ashes in liquid which she drank, making herself a living tomb. The story was used as a symbol of a widow's devotion to her husband's memory.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-    <div class="container-fluid section p-5" >
-      <div class="text-center "> Projects </div>
-      <div class="container my-5 px-3">
-        <div class="row justify-content-evenly">
-          <div class="col-sm-12 col-md-3 align-self-center order-3 order-md-1 my-3 my-md-0">
-            <h3 class="font1">We. Create</h3>
-            <p>Giving portraits a brand new life.</p>
-          </div>
-          <div class="col-10 col-sm-10 col-md-4 order-1 order-md-2">
-            <div id="carouselExampleCaptions" class="carousel" >
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide1">
-                  <img src="img/art3.1.jpg" class="img-fluid"  alt="project-1">
-                </div>
-                <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
-                  <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
-                </div>
-                
+
+    <section id="ourProjects">
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div>
+                <h1 class="modal-title fs-5 text-black font1 projectTitle" id="exampleModalLabel">Portrait of a Woman,
+                  1638-39 </h1><small class="text-black projectArtist">by Guido Reni</small>
               </div>
+              <button type="button" class="btn-close mb-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-black">
+              <p class="fontSmall projectText">The subject may represent Artemisia II of Caria (d.350 BC) wife of
+                Mausolus, the governor of Caria in Asia Minor. After the death of her husband, she mixed his ashes in
+                liquid which she drank, making herself a living tomb. The story was used as a symbol of a widow's
+                devotion to her husband's memory.</p>
             </div>
           </div>
-          <div class="col-2 col-sm-2 col-md-3 align-self-center  order-2 order-md-3">
-            <div class="d-flex justify-content-around flex-wrap">
-              <button  type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" class="buttonReset">
-                <i class="bi bi-arrow-left"></i>
-              </button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" class="buttonReset">
-                <i class="bi bi-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-
         </div>
       </div>
-    </div>
-  </section>
-  <section id="contactUs">
-    <div class="container-fluid section p-5">
-      <div class="container px-3">
+
+      <div class="container-fluid section p-5">
+        <div class="text-center ">My Projects</div>
+        <!-- <div class="w-100 text-center p-1 container">
+          <div class="d-flex justify-content-center">
+            <div class="align-items-middle d-flex p-1 border-right-1 border-white"><span
+                class="material-symbols-outlined">
+                gallery_thumbnail
+              </span><small>Gallery</small></div>
+            <div class="align-items-middle d-flex p-1"><span class="material-symbols-outlined">
+                view_carousel
+              </span><small>Carousel</small></div>
+          </div>
+        </div> -->
+        <!-- <div class="fliter container ">
+          <div class="d-flex projectTags justify-content-center">
+  
+          </div>
+        </div> -->
+        <!-- //include something that can change carousell into thumbnail view -->
+        <div class="container my-5 px-3">
+          <div class="row justify-content-evenly">
+            <div class="col-sm-12 col-md-3 align-self-center order-3 order-md-1 my-3 my-md-0">
+              <h3 class="font1 projectName">1. PokeQuiz</h3>
+              <p class="projectSummary">A quiz game for kids</p>
+              <div class="projectTags d-flex flex-wrap"></div>
+              <div class="buttonContainer d-flex mt-5"><button class="button submit github">Github</button><button class="button submit demo">Demo</button></div>
+            </div>
+            <div class="col-10 col-sm-10 col-md-4 order-1 order-md-2">
+              <div id="projectCarousel" class="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide1">
+                    <img src="img/art3.1.jpg" class="img-fluid" alt="project-1">
+                  </div>
+                  <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
+                    <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
+                  </div>
+                  <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
+                    <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
+                  </div>
+                  <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
+                    <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
+                  </div>
+                  <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
+                    <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-2 col-sm-2 col-md-3 align-self-center  order-2 order-md-3">
+              <div class="d-flex justify-content-around flex-wrap">
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide="prev" class="buttonReset">
+                  <i class="bi bi-arrow-left"></i>
+                </button>
+                <button type="button" data-bs-target="#projectCarousel" data-bs-slide="next" class="buttonReset">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactUs">
+      <div class="container-fluid section p-5">
+        <div class="container px-3">
           <div class="row justify-content-evenly position-relative">
             <div class="col-3 col-sm-2 d-none d-sm-block">
               <img src="img/left.png" class="img-fluid" alt="left hand painting" id="contactImgLeftMB">
             </div>
             <div class="col-12 col-sm-8 col-md-7 p-md-5">
               <div class="d-flex flex-wrap">
-              <img src="img/left.png" class="img-fluid d-block d-sm-none" id="contactImgLeft" alt="left hand painting">
+                <img src="img/left.png" class="img-fluid d-block d-sm-none" id="contactImgLeft"
+                  alt="left hand painting">
 
-              <div class="text-center w-100"> Contact </div>
-              <h3 class="font1 subHeader text-center w-100">Get in touch</h3>
-              <img src="img/right.png" class="img-fluid d-block d-sm-none" id="contactImgRight" alt="right hand painting">
-            </div>
-              <div class="pt-5">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control rounded-0" id="exampleFormControlInput1" placeholder="name@example.com">
+                <div class="text-center w-100"> Contact </div>
+                <h3 class="font1 subHeader text-center w-100">Get in touch</h3>
+                <img src="img/right.png" class="img-fluid d-block d-sm-none" id="contactImgRight"
+                  alt="right hand painting">
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <div class="pt-3 d-flex flex-wrap justify-content-center">
+                <div><i class="bi bi-linkedin m-2"></i></div>
+                <div><i class="bi bi-slack m-2"></i></div>
+                <div>
+                <i class="bi bi-github m-2 "></i></div>
+
+                <!-- <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control rounded-0" id="exampleFormControlInput1"
+                    placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3 mx-auto">
+                  <button class="submit"> Submit</button>
+                </div> -->
               </div>
-              <div class="mb-3 mx-auto">
-               <button class="submit"> Submit</button>
-              </div>
-            </div>
             </div>
 
             <div class="col-3 col-sm-2 mt-md-auto mt-sm-5 d-none d-sm-block">
@@ -266,26 +466,27 @@
             </div>
           </div>
 
+        </div>
       </div>
-    </div>
-  </section>
-</main>
+    </section>
+  </main>
 
 
   <footer class="container-fluid pt-5">
     <div class="container border-top py-3 p-0">
       <div class="row justify-content-between">
         <div class="col-12 col-sm-6">
-          <small class="textCenter">©TheWhitePages</small></div>
+          <small class="textCenter">©itsnotm3h</small>
+        </div>
         <div class="col-12 col-sm-6">
           <div class="socialIcon">
-            <div><i class="bi bi-instagram m-2"></i></div>
-            <div><i class="bi bi-linkedin m-2"></i></div>
-            <div><i class="bi bi-facebook m-2"></i></div>
+            <!-- <div><i class="bi bi-linkedin m-2"></i></div>
             <div><i class="bi bi-slack m-2"></i></div>
+            <div>
+            <i class="bi bi-github m-2 "></i></div> -->
           </div>
         </div>
-    </div>
+      </div>
 
     </div>
   </footer>
@@ -294,8 +495,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

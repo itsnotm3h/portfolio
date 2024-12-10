@@ -226,7 +226,15 @@ h2 {
 }
 
 
+.tag{
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 19px;
+    padding: 1px 10px;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    font-size: 0.8rem;
 
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) {
 
