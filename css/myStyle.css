@@ -76,6 +76,7 @@ body {
 }
 
 
+
 /* Others */
 
 .divider-gradient {
@@ -93,7 +94,7 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
 }
 
@@ -106,8 +107,17 @@ body {
 
 }
 
+.link{
+    color:white;
+}
+
 
 /* override bootstrap */
+/* a{
+    color: #ffffff!important;  
+} */
+
+
 
 h2 {
     font-size: 1rem;

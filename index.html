@@ -29,7 +29,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#aboutUs">Skills</a>
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+            <a class="nav-link " aria-current="page" href="#skills">Skills</a>
             <a class="nav-link" href="#ourProjects">Projects</a>
             <!-- <a class="nav-link" href="#ourClients">Clients</a> -->
             <a class="nav-link" href="#contactUs">Contact</a>
@@ -52,7 +53,23 @@
   </header>
 
   <main data-bs-spy="scroll" data-bs-target="#navScrollSpy">
-    <section id="aboutUs">
+
+    <section id="about">
+      <div class="container-fluid section pt-5">
+        <div class="my-5">
+          <h2 class="font2">About</h2>
+        </div>
+        <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-7 col-lg-7  m-auto"><h1 class="font1">I’m An Qi,</h1>I’m a multimedia designer with 10+ years of experience and a recent full-stack developer certification. I’m passionate about coding and love combining design with development to create seamless, functional solutions.<br/><br/>Currently looking for a tech role where I can bring my skills and enthusiasm for both design and coding to new challenges. <br/><br/><a href="#contactUs" class="link">Let’s connect!</a></div>
+
+        </div>
+        </div>
+        </div>
+        </section>
+
+
+    <section id="skills">
       <div class="container-fluid section p-5">
         <div class="my-5">
           <h2 class="font2">Skills</h2>
@@ -61,16 +78,15 @@
           <div class="row justify-content-evenly">
             <div class="col-sm-12 col-md-6 col-lg-5 px-lg-5 px-md-5 px-sm-0">
               <div class="d-flex flex-wrap">
-                <div class="font1 subHeader me-sm-auto ms-lg-auto me-lg-0">Design + Code</div>
+                <div class="font1 subHeader me-sm-auto ms-lg-auto me-lg-0"></div>
                 <div class="align-self-end ms-auto d-none d-sm-none d-md-block">
-                  <img src="img/art1.jpg" class="img-fluid align-self-end mainArt" alt="Painting of a Girl portrait">
+                  <img src="img/codeDesign.png" class="img-fluid align-self-end mainArt" alt="Painting of a Girl portrait">
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 mt-mb-5 px-lg-5   px-md-5 px-sm-0 ">
               <div class="mt-5">
-                <p> With full-stack development and multimedia design, I combine creativity to create
-                  engaging and beautiful products for any audience.
+                <p>With a background in full-stack development and multimedia design, I bring creativity to life by crafting engaging and visually stunning products for any audience.
                 </p>
                 <div class="py-4">
                   <div class="accordion accordion-flush " id="accordionPanelsStayOpenExample">
@@ -337,7 +353,7 @@
 
     <section id="ourProjects">
       <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
@@ -355,7 +371,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="container-fluid section p-5">
         <div class="text-center ">My Projects</div>
@@ -382,27 +398,11 @@
               <h3 class="font1 projectName">1. PokeQuiz</h3>
               <p class="projectSummary">A quiz game for kids</p>
               <div class="projectTags d-flex flex-wrap"></div>
-              <div class="buttonContainer d-flex mt-5"><button class="button submit github">Github</button><button class="button submit demo">Demo</button></div>
+              <div class="buttonContainer d-flex mt-5"><button class="button submit github">Github</button><button class="button submit demo d-none">Demo</button></div>
             </div>
             <div class="col-10 col-sm-10 col-md-4 order-1 order-md-2">
               <div id="projectCarousel" class="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide1">
-                    <img src="img/art3.1.jpg" class="img-fluid" alt="project-1">
-                  </div>
-                  <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
-                    <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
-                  </div>
-                  <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
-                    <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
-                  </div>
-                  <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
-                    <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
-                  </div>
-                  <div class="carousel-item" data-bs-toggle="modal" data-bs-target="#exampleModal" id="slide2">
-                    <img src="img/art4.1.jpg" class="img-fluid" alt="project-2">
-                  </div>
-
                 </div>
               </div>
             </div>
@@ -440,23 +440,10 @@
                   alt="right hand painting">
               </div>
               <div class="pt-3 d-flex flex-wrap justify-content-center">
-                <div><i class="bi bi-linkedin m-2"></i></div>
-                <div><i class="bi bi-slack m-2"></i></div>
+                <div><a href="https://www.linkedin.com/in/anqi-lim-83a6ba145/" target="_blank"><i class="bi bi-linkedin m-2 link"></i></a></div>
+                <div><a href="mailto:thewhit3pages@gmail.com"><i class="bi bi-envelope-fill m-2 link"></i></a></div>
                 <div>
-                <i class="bi bi-github m-2 "></i></div>
-
-                <!-- <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                  <input type="email" class="form-control rounded-0" id="exampleFormControlInput1"
-                    placeholder="name@example.com">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                  <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="mb-3 mx-auto">
-                  <button class="submit"> Submit</button>
-                </div> -->
+                <a href="https://github.com/itsnotm3h"  target="_blank"><i class="bi bi-github m-2 link"></i></a></div>
               </div>
             </div>
 
@@ -480,10 +467,6 @@
         </div>
         <div class="col-12 col-sm-6">
           <div class="socialIcon">
-            <!-- <div><i class="bi bi-linkedin m-2"></i></div>
-            <div><i class="bi bi-slack m-2"></i></div>
-            <div>
-            <i class="bi bi-github m-2 "></i></div> -->
           </div>
         </div>
       </div>
