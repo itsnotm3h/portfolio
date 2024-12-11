@@ -1,49 +1,58 @@
-# My portfoilo
-Welcome to a space where i can showcase my skills and creativity.
+# My Portfolio  
+
+Welcome to my portfolio, a space where I showcase my skills, creativity, and passion for design and development.  
 <br/><br/>
 
-## Design Process
-I was inspired by the effective use of space in art museums and aimed to recreate that effect with a minimalist design. I drew inspiration from how art museums often display a single artwork as the centerpiece, with other paintings guiding viewers to the next section. 
+## Design Process  
 
-I chose black as the primary color to ensure the focus remains on the colors of the visuals, using one additional color for contrast. I initially created the design in [Figma](https://www.figma.com/proto/hEFzUug7bx6ODKx8qU0Y6S/Portfoilo?node-id=5-2&t=uAGAgzxvSODTRBLf-1) before translating it into code.
+The design for this portfolio was inspired by the minimalist aesthetic commonly found in art museums. I sought to create an experience where each element has room to breathe, allowing the visuals to take center stage. Similar to how a museum might display a singular piece of artwork as the focal point, the design allows for a seamless transition between sections while keeping the emphasis on the content.  
+
+The primary color scheme is black, ensuring that the visuals stand out, with a carefully selected accent color for contrast. The initial design was created in [Figma](https://www.figma.com/proto/hEFzUug7bx6ODKx8qU0Y6S/Portfoilo?node-id=5-2&t=uAGAgzxvSODTRBLf-1), before being brought to life through code.  
 <br/><br/>
 
-## Features
+## Features  
 
-### Existing Features
-Scroll Spy -  To help users navigate to different sections of the site.<br/>
-Accordian - To hide long information.<br/>
-Contact Form - To let user submit an email. <br/>
-Modal - Pop up for painting description.
+### Existing Features  
+- **Scroll Spy:** Smooth navigation through the different sections of the portfolio, with automatic highlighting of the active section.  
+- **Accordion:** Used for content-heavy sections, allowing users to expand or collapse content as needed.  
+- **Contact Form:** A simple yet effective form that enables users to get in touch with me via email.  
+- **Modal Pop-Ups:** Display detailed information about projects, including descriptions and additional media, without leaving the current page.  
 
-### Features Left to Implement
-- Add in more animation and interaction on the site. 
-- Gallery view of all my projects. 
+### Planned Features  
+- **Enhanced Animations:** Add subtle animations to improve user experience and engagement.  
+- **Project Gallery:** A dedicated section to showcase all my projects in a visually appealing and interactive layout.  
 <br/><br/>
 
-## Technologies used
-- HTML 5
-- CSS3
-- Bootstrap
-- Figma
-- Jquery
+## Technologies Used  
+- **HTML5** - Structure and semantics.  
+- **CSS3** - Styling and layout.  
+- **Bootstrap** - Responsive design for a seamless experience across devices.  
+- **Figma** - For wireframing and UI/UX design.  
+- **jQuery** - For smooth interactions and dynamic content.  
 <br/><br/>
 
-## Testing
-I have tested this site on different browsers on desktop and mobile. (Safari, Firefox and Chrome)
+## Testing  
+
+This portfolio has been thoroughly tested across multiple browsers and devices to ensure a consistent and reliable experience:  
+- **Browsers:** Safari, Firefox, and Chrome.  
+- **Devices:** Desktop and mobile (responsive design).  
+
+Testing focused on usability, responsiveness, and cross-browser compatibility to provide a seamless experience for all users.  
 <br/><br/>
 
-## Credits
+## Credits  
 
-### Media
-Photos from unsplash<br/>
-[Photo 1](https://unsplash.com/photos/woman-wearing-white-headdress-while-holding-blue-bowl-painting-Kv1hYl9LlxU)<br/>
-[Photo 2](https://unsplash.com/photos/woman-in-blue-bikini-bottom-lying-on-blue-textile-jaWqPEPemvU)<br/><br/>
-Ai generate photos from <br/>[Freepik](https://www.freepik.com/)
+### Media  
+- **Photos:**  
+  - [Photo 1](https://unsplash.com/photos/woman-wearing-white-headdress-while-holding-blue-bowl-painting-Kv1hYl9LlxU) by [Unsplash](https://unsplash.com).  
+  - [Photo 2](https://unsplash.com/photos/woman-in-blue-bikini-bottom-lying-on-blue-textile-jaWqPEPemvU) by [Unsplash](https://unsplash.com).  
+- **AI-Generated Artwork:**  
+  - [Freepik](https://www.freepik.com/).  
 
-### Acknowledgements
-I received inspiration for this project from [3Dear](https://www.3dear.se/) and [Anai](https://anaiwood.com/en).
+### Acknowledgements  
+This project was inspired by the creative work of [3Dear](https://www.3dear.se/) and [Anai](https://anaiwood.com/en), whose design philosophies guided my approach to this project.  
 <br/><br/>
 
-## Disclaimer
-This website is meant to showcase my coding skills and to express my vision. The content, including some of images and text, is intended for educational and illustrative use. I do not intend to destroy or harm any paintings or artworks. All artworks and images remain the property of their respective owners. No actual paintings were harmed or altered in the creation of this page.
+## Disclaimer  
+
+This website is a showcase of my coding and design skills. The content, including images and text, is intended for educational and illustrative purposes only. All media and artwork belong to their respective owners. No actual paintings or artworks were harmed or altered during the creation of this portfolio.  
