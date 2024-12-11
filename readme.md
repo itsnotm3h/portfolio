@@ -1,14 +1,12 @@
 # My Portfolio  
 
 Welcome to my portfolio, a space where I showcase my skills, creativity, and passion for design and development.  
-<br/><br/>
 
 ## Design Process  
 
 The design for this portfolio was inspired by the minimalist aesthetic commonly found in art museums. I sought to create an experience where each element has room to breathe, allowing the visuals to take center stage. Similar to how a museum might display a singular piece of artwork as the focal point, the design allows for a seamless transition between sections while keeping the emphasis on the content.  
 
 The primary color scheme is black, ensuring that the visuals stand out, with a carefully selected accent color for contrast. The initial design was created in [Figma](https://www.figma.com/proto/hEFzUug7bx6ODKx8qU0Y6S/Portfoilo?node-id=5-2&t=uAGAgzxvSODTRBLf-1), before being brought to life through code.  
-<br/><br/>
 
 ## Features  
 
@@ -21,7 +19,6 @@ The primary color scheme is black, ensuring that the visuals stand out, with a c
 ### Planned Features  
 - **Enhanced Animations:** Add subtle animations to improve user experience and engagement.  
 - **Project Gallery:** A dedicated section to showcase all my projects in a visually appealing and interactive layout.  
-<br/><br/>
 
 ## Technologies Used  
 - **HTML5** - Structure and semantics.  
@@ -29,7 +26,6 @@ The primary color scheme is black, ensuring that the visuals stand out, with a c
 - **Bootstrap** - Responsive design for a seamless experience across devices.  
 - **Figma** - For wireframing and UI/UX design.  
 - **jQuery** - For smooth interactions and dynamic content.  
-<br/><br/>
 
 ## Testing  
 
@@ -38,7 +34,6 @@ This portfolio has been thoroughly tested across multiple browsers and devices t
 - **Devices:** Desktop and mobile (responsive design).  
 
 Testing focused on usability, responsiveness, and cross-browser compatibility to provide a seamless experience for all users.  
-<br/><br/>
 
 ## Credits  
 
@@ -51,7 +46,7 @@ Testing focused on usability, responsiveness, and cross-browser compatibility to
 
 ### Acknowledgements  
 This project was inspired by the creative work of [3Dear](https://www.3dear.se/) and [Anai](https://anaiwood.com/en), whose design philosophies guided my approach to this project.  
-<br/><br/>
+
 
 ## Disclaimer  
 
