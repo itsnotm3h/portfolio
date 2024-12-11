@@ -138,3 +138,9 @@ myCarousel.addEventListener('slide.bs.carousel', event => {
 });
 
 
+$(".nav-link").click(function(){
+    if($(".navbar-collapse").hasClass("show"))
+    {
+        $(".navbar-collapse").removeClass("show");
+    }
+})
