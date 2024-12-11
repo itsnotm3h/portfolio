@@ -1,5 +1,5 @@
 # My portfoilo
-Welcome to a space where i can showcase my skills and creativiy.
+Welcome to a space where i can showcase my skills and creativity.
 <br/><br/>
 
 ## Design Process
