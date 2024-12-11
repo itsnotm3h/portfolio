@@ -1,4 +1,4 @@
-# The White Pages
+# My portfoilo
 Welcome to a visionary space where art and technology converge. This concept explores the transformative potential of coding within the realm of visual art.
 <br/><br/>
 
