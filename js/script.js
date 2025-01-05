@@ -29,7 +29,7 @@ let info = [
         image: "./img/mongoDB.png",
         technology: ["Restful.api", "MongoDb", "Express", "Javascript"],
         github: "https://github.com/itsnotm3h/database-RESTFUL",
-        demo: ""
+        demo: "https://itsnotm3h.github.io/industry-project-1-pokequiz/"
     },
     {
         name: "PokeQuiz",
@@ -37,7 +37,7 @@ let info = [
         image: "./img/pokeQuiz.png",
         technology: ["Javascript", "Bootstrap", "Leaflet", "PokeAPI"],
         github: "https://github.com/itsnotm3h/industryproject",
-        demo: "https://itsnotm3h.github.io/industryproject/"
+        demo: ""
     }
 ]
 
